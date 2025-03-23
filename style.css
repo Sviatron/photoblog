@@ -48,6 +48,7 @@ body{
     display: flex; /*Блочний контейнер - робить контейнер тягнучим*/
     flex-direction: row; /*Напрямок контейнеру*/
     justify-content: center; /*Розташування елементів по головній осі*/
+    align-items: center; /*рівняє по вертикалі*/
 }
 .navigation-item {
     margin-right: 100px;
