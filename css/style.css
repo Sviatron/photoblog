@@ -10,6 +10,7 @@ h1,h2,h3,h4,h5,h6,p,img,ul,li,form,label,input,a {
     margin: 0;
     padding: 0;
 }
+
 a{  
     text-decoration: none;
 }
@@ -48,7 +49,7 @@ body{
     display: flex; /*Блочний контейнер - робить контейнер тягнучим*/
     flex-direction: row; /*Напрямок контейнеру*/
     justify-content: center; /*Розташування елементів по головній осі*/
-    align-items: center; /*рівняє по вертикалі*/
+    margin-bottom: 92px;
 }
 .navigation-item {
     margin-right: 100px;
